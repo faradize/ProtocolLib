@@ -17,7 +17,7 @@
 		<project.fullVersion>${project.version}</project.fullVersion>
 
 		<powermock.version>2.0.4</powermock.version>
-		<spigot.version>1.14.4-R0.1-SNAPSHOT</spigot.version>
+		<spigot.version>1.15-R0.1-SNAPSHOT</spigot.version>
 	</properties>
 
 	<build>
@@ -119,6 +119,9 @@
 					<windowtitle>ProtocolLib JavaDocs</windowtitle>
 					<bottom>Copyright &#169; {inceptionYear}&#x2013;{currentYear}
 						Comphenix and dmulloy2. Licensed under the GNU GPL v2.</bottom>
+					<additionalOptions>
+						<additionalOption>-Xdoclint:none</additionalOption>
+					</additionalOptions>
 				</configuration>
 				<executions>
 					<execution>
